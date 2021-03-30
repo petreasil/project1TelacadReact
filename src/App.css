@@ -1,0 +1,62 @@
+/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-top {
+  background-color: #ff4b2b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bottom {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.bottom input[type="color"] {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .cardbody h4,
+  .cardbody p {
+    font-size: 10px;
+  }
+}

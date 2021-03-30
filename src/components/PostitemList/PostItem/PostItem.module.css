@@ -1,0 +1,29 @@
+.blogpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px 5px;
+  margin: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  transition: 0.3s;
+  flex-grow: 5;
+}
+
+.blogpost h3 {
+  font-size: 16px;
+  padding: 10px;
+}
+.blogpost p {
+  padding: 15px;
+  align-self: center;
+}
+
+.blogpost .blogpostitle {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+}
+.blogpost:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}

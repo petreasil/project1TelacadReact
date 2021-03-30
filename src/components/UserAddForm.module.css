@@ -1,0 +1,49 @@
+.useraddform {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  border: 1px solid black;
+}
+
+.useraddform h2 {
+  align-self: center;
+}
+
+.useraddform label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.useraddform input {
+  padding: 12px 5px;
+  margin: 2px;
+}
+
+.useraddform .secondline {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.contentColor {
+  padding-right: 20px;
+}
+
+.contentColor input[type="color"] {
+  width: 32px;
+  height: 10px;
+}
+
+.useraddform .btnSubmit {
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 18px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 5px;
+}

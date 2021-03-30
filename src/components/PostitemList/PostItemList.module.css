@@ -1,0 +1,14 @@
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-grow: 4;
+  flex-wrap: wrap;
+}
+
+.listContainer h3 {
+  margin: 5px;
+  font-size: 25px;
+  padding: 10px;
+}

@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-top: 10px;
+}
+
+.list h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 15px;
+}
